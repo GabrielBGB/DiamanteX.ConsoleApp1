@@ -8,14 +8,23 @@
 
             while (repetir)
             {
-                #region Entrada e Validação
+                #region //Entrada e Validação
                 int numero = ObterNumeroImpar();
                 #endregion
 
-                #region Geração do Diamante
+                #region //Geração do Diamante
                 DesenharDiamante(numero);
                 #endregion
+
+                #region //Pergunta para repetir
+                Console.Write("\nDeseja executar novamente? (s/n): ");
+                string resposta = Console.ReadLine();
+
+                repetir = resposta.Trim().ToLower() == "s";
+                Console.WriteLine();
+                #endregion
             }
+            Console.WriteLine("Encerrando o programa. Até logo!");
         }
     }
 }

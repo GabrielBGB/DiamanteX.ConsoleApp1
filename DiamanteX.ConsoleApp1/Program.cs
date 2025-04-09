@@ -8,5 +8,14 @@
 
             while (repetir)
             {
+                #region Entrada e Validação
+                int numero = ObterNumeroImpar();
+                #endregion
+
+                #region Geração do Diamante
+                DesenharDiamante(numero);
+                #endregion
             }
+        }
+    }
 }

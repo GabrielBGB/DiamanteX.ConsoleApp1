@@ -43,8 +43,10 @@
                 {
                     Console.WriteLine("Entrada inválida. Por favor, digite um número inteiro ímpar.");
 
-
-
                 }
             }
+        }
+        #endregion
+
+        #region //Função: Desenhar Diamante 
     }

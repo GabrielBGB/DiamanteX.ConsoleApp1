@@ -54,8 +54,19 @@
             int meio = tamanho / 2;
 
             //Parte superior (inclui linha do meio)
-            for (int i = 0; i < meio; i++) 
+            for (int i = 0; i < meio; i++)
             {
                 Imprimirlinha(tamanho, i);
+
+            }
+            //Parte Inferior
+            for (int i = meio - 1; i >= 0; i--)
+            {
+                ImprimirLinha(tamanho, i);
+            }
+
         }
+        #endregion
+
+        #region Função: Imprimir linha do diamante
     }

@@ -17,18 +17,18 @@ Este é um programa em C# que solicita ao usuário um número **ímpar** e gera 
 
 ## 🧪 Exemplo de Execução
 
-```bash
-Digite um número ímpar: 7
-   X
-  XXX
- XXXXX
-XXXXXXX
- XXXXX
-  XXX
-   X
 
-Deseja executar novamente? (s/n): s
 
-## 📩 Contato
-Projeto desenvolvido por Gabriel – em formação em Análise e Desenvolvimento de Sistemas.
-🔗 [Duck Duck Go](https://duckduckgo.com)
+![](https://imgur.com/hVT2x5m.gif)
+
+
+___
+
+Projeto desenvolvido por [Gabriel](https://instagram.com.br/gabriel_fernandob_) – em formação em Análise e Desenvolvimento de Sistemas.
+🔗 [GitHub](github.com/GabrielBGB)
+
+___
+
+## 🔗Tecnologias 
+
+[![My Skills](https://skillicons.dev/icons?i=cs,dotnet,visualstudio,git,github)](https://skillicons.dev)

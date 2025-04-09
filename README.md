@@ -30,5 +30,5 @@ XXXXXXX
 Deseja executar novamente? (s/n): s
 
 ## 📩 Contato
-Projeto desenvolvido por <a href="https://www.example.com">Instagram</a>  em formação em Análise e Desenvolvimento de Sistemas.
-🔗 github.com/seu-usuario
+Projeto desenvolvido por Gabriel – em formação em Análise e Desenvolvimento de Sistemas.
+🔗 [Duck Duck Go](https://duckduckgo.com)

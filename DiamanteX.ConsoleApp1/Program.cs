@@ -26,5 +26,25 @@
             }
             Console.WriteLine("Encerrando o programa. Até logo!");
         }
+        #region //Função: Obter número ímpar válido 
+        static int ObterNumeroImpar()
+        {
+            int numero;
+            while (true)
+            {
+                Console.Write("Digite um número ímpar");
+                string entrada = Console.ReadLine();
+
+                if (int.TryParse(entrada, out numero) && numero % 2 != 0)
+                {
+                    return numero;
+                }
+                else
+                {
+                    Console.WriteLine("Entrada inválida. Por favor, digite um número inteiro ímpar.");
+
+
+
+                }
+            }
     }
-}

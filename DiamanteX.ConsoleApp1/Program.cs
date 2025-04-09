@@ -49,4 +49,13 @@
         #endregion
 
         #region //Função: Desenhar Diamante 
+        static void DesenharDiamante(int tamanho)
+        {
+            int meio = tamanho / 2;
+
+            //Parte superior (inclui linha do meio)
+            for (int i = 0; i < meio; i++) 
+            {
+                Imprimirlinha(tamanho, i);
+        }
     }
